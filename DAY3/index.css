@@ -76,12 +76,14 @@ body, html {
 }
 .content__name {
     font-size: 17px;
+    margin-bottom: 4px;
 }
 .content__name a {
     color: #385898;
     cursor: pointer;
     text-decoration: none;
     font-weight: 600;
+    
 }
 .content__name a:hover {
     text-decoration: underline;
@@ -92,6 +94,7 @@ body, html {
 .content__info__avt {
     width: 19px;
     height: 19px;
+    padding-right: 5px;
 }
 .content__info__avt img {
     height: 100%;
