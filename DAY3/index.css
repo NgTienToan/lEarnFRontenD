@@ -1,0 +1,163 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+}
+.container {
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0); 
+    width: 695px;
+    border-radius: 3px;
+    border: 1px solid #e5e6e9;
+    background-color: #fff;
+}
+
+.form__top {
+    padding: 15px;
+    border-bottom: 1px solid #e5e6e9;
+}
+.form__top h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.form__top a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 11px;
+}
+.form__content {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.form__content__item {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    border-bottom: 1px solid #e5e6e9;
+
+}
+.form__content__item__left {
+    margin-right: 10px;
+    height: 100%;
+    /* float: left; */
+}
+.avt {
+    height: 75px;
+    width: 75px;
+
+
+}
+.avt img {
+    height: 100%;
+    width: 100%;
+}
+.form__content__item__right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    float:right
+}
+.content {
+    height: 75px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content__name {
+    font-size: 17px;
+}
+.content__name a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+.content__name a:hover {
+    text-decoration: underline;
+}
+.content__info {
+    display: flex
+}
+.content__info__avt {
+    width: 19px;
+    height: 19px;
+}
+.content__info__avt img {
+    height: 100%;
+    width: 100%;  
+    border-radius: 50%;  
+}
+.content__info__friend {
+    font-size: 14px;
+}
+.content__info__friend a{
+    color: #606770;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.content__info__friend a:hover{
+    text-decoration: underline;
+}
+.content__info__friend span{
+    color: #606770;
+    cursor: pointer;
+    text-decoration: none;
+}
+.content__info__friend span:hover{
+    text-decoration: underline;
+}
+.comfirm {
+    display: flex;
+}
+button {
+    cursor: pointer;
+}
+button:focus {
+    border-color: #3578E5;
+}
+.comfirm__yes  {
+    background-color: #4267b2;
+    border-color: #4267b2;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 4px 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+}
+.comfirm__delete {
+    background-color: #f5f6f7;
+    color: #4b4f56;
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 4px 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    border: 1px solid #ccd0d5;
+    border-radius: 2px;
+    box-sizing: content-box;
+    margin-left: 4px;
+}
+
+
